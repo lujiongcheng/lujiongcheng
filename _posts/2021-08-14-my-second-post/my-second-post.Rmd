@@ -1,0 +1,25 @@
+---
+title: "My second post"
+description: |
+  A short description of the post.
+preview: images/lujiongcheng.jpg
+author:
+  - name: Tony
+    url: {}
+date: 08-14-2021
+output:
+  radix::radix_article:
+    self_contained: false
+    toc: True
+    toc_depth : 2
+    toc_float: True
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+# Hello
+
+![](images/lujiongcheng.jpg)
