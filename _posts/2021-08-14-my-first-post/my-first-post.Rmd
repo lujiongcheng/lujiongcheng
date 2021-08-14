@@ -1,0 +1,39 @@
+---
+title: "My first post"
+description: |
+  A short description of the post.
+author:
+  - name: 卢炯成
+date: 08-14-2021
+output:
+  radix::radix_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Data analytics Basic 
+
+## Read the data
+
+```{r}
+data <- datasets :: mtcars
+summary(data)
+```
+
+## Histogram
+
+```{r}
+hist(data$mpg)
+
+```
+
+Result:
+
+-   This histogram showed the characteristics of the mpg variable.
+
+-   Range of the data is from 10 to 35

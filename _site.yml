@@ -1,0 +1,14 @@
+name: "websiteexample"
+title: "Tony's website"
+description: |
+  Tony's websit
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "WKU"
+      href: http://wku.edu.cn
+output: radix::radix_article
